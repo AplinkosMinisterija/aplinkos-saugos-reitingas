@@ -45,9 +45,9 @@ out = js[:m.start(2)] + json.dumps(data, ensure_ascii=False, separators=(',', ':
 out = out.replace('aplinkosaugos reitingas 2025 m.', 'aplinkosaugos reitingas 2026 m.')
 out = out.replace('currentYear: 2025,', 'currentYear: 2026,')
 out = out.replace('APLINKOS SAUGOS REITINGAS 2025 m.', 'APLINKOS SAUGOS REITINGAS 2026 m.')
-# 2026 m. spalvos – žalia (2024 mėlyna, 2025 violetinė)
-for old, new_c in [("from: '#e8d5f2'", "from: '#d6ebdc'"), ("to: '#4a1a5c'", "to: '#1e4d2b'"),
-                   ("winners: '#4a0963'", "winners: '#163a20'"), ('#9965a3', '#3f7d4f')]:
+# 2026 m. spalvos – pelenų rožinė / vyšninė pagal 2026 pristatymą (2024 mėlyna, 2025 violetinė)
+for old, new_c in [("from: '#e8d5f2'", "from: '#e8c8cd'"), ("to: '#4a1a5c'", "to: '#73393e'"),
+                   ("winners: '#4a0963'", "winners: '#623c3b'"), ('#9965a3', '#c57379')]:
     assert old in out, old
     out = out.replace(old, new_c)
 # Failo vardas nebesvarbus: script žymė nustatoma per document.currentScript

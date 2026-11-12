@@ -4,8 +4,8 @@ Interaktyvus savivaldybių aplinkosaugos reitingo žemėlapis, įterpiamas į am
 
 | Metai | Įterpimo kodas |
 |---|---|
-| 2026 | `<script src="https://cdn.jsdelivr.net/gh/AplinkosMinisterija/aplinkos-saugos-reitingas@2026.1/2026/map-builder.js"></script>` |
-| 2025 | `<script src="https://cdn.jsdelivr.net/gh/AplinkosMinisterija/aplinkos-saugos-reitingas@2026.1/2025/map-builder.js"></script>` |
+| 2026 | `<script src="https://cdn.jsdelivr.net/gh/AplinkosMinisterija/aplinkos-saugos-reitingas@2026.2/2026/map-builder.js"></script>` |
+| 2025 | `<script src="https://cdn.jsdelivr.net/gh/AplinkosMinisterija/aplinkos-saugos-reitingas@2026.2/2025/map-builder.js"></script>` |
 
 Žemėlapis įterpiamas toje vietoje, kur yra `<script>` žymė.
 
