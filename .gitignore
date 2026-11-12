@@ -1,0 +1,4 @@
+*.xlsx
+~$*
+.playwright-mcp/
+2025/decode.php
